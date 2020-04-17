@@ -1,5 +1,19 @@
 function showCalories() {
   var calories = document.getElementById("calories").value
-  caloriesToSave = calories / 7
-  alert("You need to save: " + caloriesToSave + " calories.")
+  caloriesToSave = caloriesToSave = calories / 7
+  return print(caloriesToSave)
 }
+
+var r = document.getElementById('result');
+
+function print(s){
+  r.innerHTML += s + '<br>';
+}
+
+
+
+
+
+
+    
+
