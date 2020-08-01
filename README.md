@@ -1,3 +1,5 @@
 # CalorieCountMakeUp.github.io
 
-You can also view the site here: https://playcode.io/567840
+Very simple calorie counter site.
+
+https://hedonisticopportunist.github.io/calorie/
