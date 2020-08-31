@@ -5,28 +5,39 @@
   <meta charset="utf-8">
   <title>Calorie Counter Makeup</title>
   <meta name="description" content="Find out how many calories you need in order to maintain your diet.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Calorie Counter Makeup</h1>
-  <h2>Find out how much you need to 'makeup!</h2>
-
-  <p>
-  <ul>
-    <li>Are you fed up of trying to figure out how much you need to eat?</li>
-    <li>Fear not! This website will help you :)</li>
-  </ul>
-  </p>
-  <br>
-  <textarea id="msg" rows="4" cols="50"></textarea>
-  </p>
-  <br>
-  <button type="button" class="btn btn-primary" onclick="showCalories()">Send Message</button>
-  <p>
-  <div id="result">The result is: </div>
-  </p>
-  <script src="script.js"></script>
+  <div class="header">
+    <h1>Calorie Counter Makeup</h1>
+    <p>Find out how much you need to 'makeup'!</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <p>Are you fed up of trying to figure out how much you need to eat?.</p>
+      <p>
+        Fear not! This website will help you :)
+      </p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <br>
+        <textarea id="msg" rows="4" cols="50"></textarea>
+        </p>
+        <br>
+        <button type="button" class="button" onclick="showCalories()">Send Message</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p id="result">
+          The result is:
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
